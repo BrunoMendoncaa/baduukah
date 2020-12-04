@@ -3,6 +3,7 @@
   if($_SESSION == NULL){
     header('location: index.php');
   }
+  $_SESSION['add'] = 'nao';
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -77,8 +78,8 @@
           <i class="fa fa-table"></i> Lista de clientes</div>
         <div class="card-body">
           <div class="table-responsive">
-            <table class="table table-bordered" id="dataTable" width="150%" cellspacing="0">
-              <thead>
+            <table class="table table-bordered" id="dataTable" width="200%" cellspacing="0">
+              <thead >
                 <tr>
                   <th>id</th>
                   <th>nome</th>

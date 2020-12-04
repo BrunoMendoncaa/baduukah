@@ -1,5 +1,6 @@
 <?php
     session_start();
+
     include 'conectar.php';
 
     $user = $_POST['user'];
